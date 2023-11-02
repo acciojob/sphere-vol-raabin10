@@ -17,7 +17,7 @@ function volume_sphere() {
         volumeInput.value = volume.toFixed(4); // Rounded to 2 decimal places
     } else {
         // If the input is not a valid number, display an error message
-        volumeInput.value = Nan;
+        volumeInput.value = NaN;
     }
 
     // Prevent the form from submitting and refreshing the page
