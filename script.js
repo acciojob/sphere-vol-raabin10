@@ -14,7 +14,7 @@ function volume_sphere() {
         var volume = (4 / 3) * Math.PI * Math.pow(radius, 3);
 
         // Set the calculated volume in the volume input field
-        volumeInput.value = volume.toFixed(2); // Rounded to 2 decimal places
+        volumeInput.value = volume.toFixed(4); // Rounded to 2 decimal places
     } else {
         // If the input is not a valid number, display an error message
         volumeInput.value = "Invalid input. Please enter a valid positive number.";
